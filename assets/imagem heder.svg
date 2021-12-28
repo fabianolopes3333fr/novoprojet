@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1190.865" height="1169.68" viewBox="0 0 1190.865 1169.68">
+  <defs>
+    <filter id="Caminho_1" x="0" y="322.457" width="847.223" height="847.223" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Caminho_1-2" x="0" y="322.457" width="847.223" height="847.223" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.145" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Caminho_1-3" x="451.58" y="0" width="739.286" height="890.914" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+    </filter>
+    <filter id="Caminho_1-4" x="451.58" y="0" width="739.286" height="890.914" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.145" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="HTML_" x="227.137" y="121.457" width="698" height="345" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+    </filter>
+    <filter id="HTML_2" x="227.137" y="121.457" width="698" height="345" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-6"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="_5" x="370.137" y="380.957" width="382" height="265" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+    </filter>
+    <filter id="_5-2" x="370.137" y="380.957" width="382" height="265" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161" result="color-4"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-8"/>
+      <feComposite operator="in" in="color-4"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Componente_2_1" data-name="Componente 2 – 1" transform="translate(9 6)">
+    <g id="Componente_1_2" data-name="Componente 1 – 2" transform="translate(552.137 1151.68) rotate(-135)">
+      <g data-type="innerShadowGroup">
+        <g transform="matrix(-0.71, 0.71, -0.71, -0.71, 1215.39, 421.82)" filter="url(#Caminho_1)">
+          <g id="Caminho_1-5" data-name="Caminho 1" transform="translate(561.14 1157.68) rotate(-135)" fill="rgba(229,78,35,0.9)">
+            <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+            <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none" fill="#212121"/>
+          </g>
+        </g>
+        <g id="Caminho_1-6" data-name="Caminho 1" fill="rgba(229,78,35,0.9)">
+          <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+          <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none"/>
+        </g>
+        <g transform="matrix(-0.71, 0.71, -0.71, -0.71, 1215.39, 421.82)" filter="url(#Caminho_1-2)">
+          <g id="Caminho_1-7" data-name="Caminho 1" transform="translate(561.14 1157.68) rotate(-135)" fill="#fff">
+            <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+            <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none"/>
+          </g>
+        </g>
+        <g id="Caminho_1-8" data-name="Caminho 1" fill="none">
+          <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+          <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none" fill="#212121"/>
+        </g>
+      </g>
+    </g>
+    <g id="Componente_1_3" data-name="Componente 1 – 3" transform="matrix(0.485, 0.875, -0.875, 0.485, 794.307, 0)">
+      <g data-type="innerShadowGroup">
+        <g transform="matrix(0.48, -0.87, 0.87, 0.48, -394.7, 699.68)" filter="url(#Caminho_1-3)">
+          <g id="Caminho_1-9" data-name="Caminho 1" transform="matrix(0.48, 0.87, -0.87, 0.48, 803.31, 6)" fill="rgba(226,73,23,0.9)">
+            <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+            <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none" fill="#212121"/>
+          </g>
+        </g>
+        <g id="Caminho_1-10" data-name="Caminho 1" fill="rgba(226,73,23,0.9)">
+          <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+          <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none"/>
+        </g>
+        <g transform="matrix(0.48, -0.87, 0.87, 0.48, -394.7, 699.68)" filter="url(#Caminho_1-4)">
+          <g id="Caminho_1-11" data-name="Caminho 1" transform="matrix(0.48, 0.87, -0.87, 0.48, 803.31, 6)" fill="#fff">
+            <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+            <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none"/>
+          </g>
+        </g>
+        <g id="Caminho_1-12" data-name="Caminho 1" fill="none">
+          <path d="M 778.4312744140625 390.8587646484375 L 2.407921552658081 390.8587646484375 L 390.4195861816406 1.416862964630127 L 778.4312744140625 390.8587646484375 Z" stroke="none"/>
+          <path d="M 390.4195861816406 2.833587646484375 L 4.81585693359375 389.858642578125 L 776.0233154296875 389.858642578125 L 390.4195861816406 2.833587646484375 M 390.4195861816406 -6.103515625e-05 L 780.8391723632812 391.858642578125 L 0 391.858642578125 L 390.4195861816406 -6.103515625e-05 Z" stroke="none" fill="#212121"/>
+        </g>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#HTML_)">
+        <text id="HTML_3" data-name="HTML " transform="translate(238.14 129.46)" fill="#333" stroke="#fff" stroke-width="2" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700"><tspan x="27.6" y="201">HTML </tspan></text>
+      </g>
+      <text id="HTML_4" data-name="HTML " transform="translate(229.137 123.457)" fill="#333" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700"><tspan x="27.6" y="201">HTML </tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#HTML_2)">
+        <text id="HTML_5" data-name="HTML " transform="translate(238.14 129.46)" fill="#fff" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700"><tspan x="27.6" y="201">HTML </tspan></text>
+      </g>
+      <text id="HTML_6" data-name="HTML " transform="translate(229.137 123.457)" stroke="#fff" stroke-width="2" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700" fill="none"><tspan x="27.6" y="201">HTML </tspan></text>
+    </g>
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#_5)">
+        <text id="_5-3" data-name="5" transform="translate(381.14 388.96)" fill="#fff" stroke="#131212" stroke-width="2" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700"><tspan x="-71.094" y="201">5</tspan></text>
+      </g>
+      <text id="_5-4" data-name="5" transform="translate(372.137 382.957)" fill="#fff" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700"><tspan x="-71.094" y="201">5</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#_5-2)">
+        <text id="_5-5" data-name="5" transform="translate(381.14 388.96)" fill="#fff" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700"><tspan x="-71.094" y="201">5</tspan></text>
+      </g>
+      <text id="_5-6" data-name="5" transform="translate(372.137 382.957)" stroke="#131212" stroke-width="2" font-size="200" font-family="Verdana-Bold, Verdana" font-weight="700" fill="none"><tspan x="-71.094" y="201">5</tspan></text>
+    </g>
+    <g id="Elipse_1" data-name="Elipse 1" transform="translate(799.137 835.457)" fill="#fff" stroke="#212121" stroke-width="2">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="24" fill="none"/>
+    </g>
+  </g>
+</svg>

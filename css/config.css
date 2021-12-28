@@ -1,0 +1,49 @@
+:root { 
+
+  --primary: #fc5185;
+  --primary-purple-500:#9c27b0;
+  --primary-purple-600:#8e24aa;
+  --primary-purple-700:#7b1fa2;
+  --primary-purple-800:#6a1b9a;
+  --primary-purple-900:#4a148c;
+  --primary-amber-500:#ff9800;
+  --primary-amber-600:#fb8c00;
+  --primary-amber-700:#f57c00;
+  --primary-amber-800:#ef6c00;
+  --primary-amber-900:#e65100;
+  --primary-depe-purple-500:#673ab7;
+  --primary-depe-purple-600:#5e35b1;
+  --primary-depe-purple-700:#512da8;
+  --primary-depe-purple-800:#4527a0;
+  --primary-depe-purple-900:#311b92;
+ /*-------------------------------------*/
+  --secundary-deppe-purple-50:#ede7f6;
+  --secundary-depe-purple-100:#d1c4e9;
+  --secundary-depe-purple-200:#b39ddb;
+  --secundary-depe-purple-300:#9575cd;
+  --secundary-depe-purple-400:#7e57c2;
+  --secundary-purple-50:#f3e5f5;
+  --secundary-purple-100:#e1bee7;
+  --secundary-purple-200:#ce93d8;
+  --secundary-purple-300:#ba68c8;
+  --secundary-purple-400:#ab47bc;
+ 
+  /*-------------------------------------*/
+  --fonts-50:#fafafa;
+  --fonts-100:#f5f5f5;
+  --fonts-200:#eeeeee;
+  --fonts-300:#e0e0e0;
+  --fonts-400:#bdbdbd;
+  --fonts-500:#9e9e9e;
+  --fonts-600:#757575;
+  --fonts-700:#616161;
+  --fonts-800:#424242;
+  --fonts-900:#212121;
+  
+   
+      
+  --primary: '#fc5185';
+  --font-primary: 'Roboto', sans-serif;
+
+
+}    
