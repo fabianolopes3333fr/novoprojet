@@ -3,13 +3,16 @@
   #header .nav-link {
       margin-left: 15px;
       margin-right: 15px;
+      background-color: transparent;
       
   }
-  /*#slider img {
-      
-      width: 100%;
-      height: auto;
-  }*/
+  #header .nav-link:hover {
+    background-color: transparent;
+    
+    
+  }
+ 
+  
 }
 
 /*MAX MEDIUM*/
@@ -22,6 +25,7 @@
       
      
   }*/
+  
   #contato .email img {
       width: 90px;
       top: -40px;
@@ -29,4 +33,58 @@
   }
 
   
+}
+
+@media (max-width:767.98px) {
+  #sobre a {
+  min-width: 380px;
+  display: flex;
+  
+   
+    
+  }
+    
+  #block-service a.destaque .img-container {
+    min-width: 320px; 
+    height: 170px;
+  }
+  #block-service .fa-html5 {
+    color: #E44A25;
+    font-size: 10rem;
+  }
+  #block-service .fa-css3-alt {
+    color: #006DB9;
+    font-size: 10rem;
+  }
+  #block-service .fa-js-square {
+    color: #F5DD1B;
+    font-size: 10rem;
+  }
+  #block-service .fa-github-square {
+    color: #7A2B9F;
+    font-size: 10rem;
+  }
+  #clientes .cliente-texto .imagem {
+      padding: 10px 0 30px 0;
+      display: none;
+      
+  }
+  
+  #clientes .cliente-texto .imagem img {
+      max-width: 150px;
+      
+  }
+  #contato .email {
+      padding: 60px 30px 50px 30px;
+
+  }
+  #contato .email form {
+      width: 100%;
+      flex-direction: column;
+  }
+  #contato ul {
+      padding-top: 30px;
+      justify-content: center;
+  }
+
 }

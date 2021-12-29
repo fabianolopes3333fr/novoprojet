@@ -17,5 +17,37 @@ a:hover {
   
 }
 .block {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+}
+
+.button {
+  text-transform: lowercase;
+  font-weight: 500;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+.button-primay {
+  background-color: var(--primary-purple-500);
+  border-color: var(--secundary-depe-purple-100);
+  
+  
+}
+.button-primay:hover {
+  background-color: var(--primary-purple-900);
+  border-color: var(--primary-depe-purple-600);
+
+
+}
+.button-primary-outline {
+  border-color: var(--primary-purple-500);
+  color: var(--fonts-800);
+
+}
+.button-primary-outline:hover {
+  border-color: var(--primary-purple-900);
+  background-color: var(--primary-purple-500);
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span{
+  background: var(--primary-purple-800);
 }

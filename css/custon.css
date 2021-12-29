@@ -4,38 +4,29 @@ html {
   
   
 }
+body {
+  background: url(../assets/footer-bg.png) no-repeat center bottom;
+  padding-bottom: 400px;
+}
 
 
-
-#header{
+#header {
   width: 100%;
   background-color: transparent;
   transition: background ease-out 0.2s;
   
 }
+
 #header.active {
   position: fixed;
   background: #fff;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
   z-index: 9999;
 }
-#header img {
-  max-width: 100%;
-  height: auto;
-} 
+
 #header .navbar-collapse {
   width: auto;
   flex-grow: 0;
- 
-  
-  
-}
-
-
-
-#header .navbar-collapse {
-  width: auto;
-  
 }
 
 #header .nav-link {
@@ -43,15 +34,387 @@ html {
   font-weight: 500;
   padding-left: 0;
   padding-right: 0;
-  color: #000;
   border-bottom: solid 4px transparent;
-  border-radius: 3px;
   color: var(--fonts-900);
  
 }
 #header .nav-link:hover {
   border-bottom: solid 4px var(--primary-amber-800);
-  color: var(--fonts-100);
+  color: var(--fonts-900);
+  background-color: var(--fonts-100);
+  border-radius: 5px;
   
 }
+.icon-menu {
+  font-size: 20px;
+  padding: 0 15px;
+  color: #7A2B9F;
+}
 /*--------- le fin section header------*/
+
+#slider {
+  background: url(../assets/baner\ heder.png) no-repeat center bottom;
+  background-size: contain;
+  background-color: var(--fonts-400);
+ 
+  
+  
+}
+
+#slider h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  
+}
+#slider h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/*--------- le fin section slider------*/
+#sobre {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+#sobre h2 {
+  text-align:center;
+  margin-bottom: 15px;
+  
+}
+#sobre h4 {
+  text-align:center;
+  margin-bottom: 15px;
+}
+#sobre p {
+  text-align:justify;
+  
+}
+.btn-sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#block-service a.destaque {
+  display: block;
+  background-color: var(--fonts-500);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: var(--fonts-900);
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+  
+}
+
+#block-service a.destaque:hover {
+  background: var(--fonts-100);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+
+}
+#block-service p {
+  color: var(--fonts-900);
+}
+#block-service a.destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  
+}
+#block-service a.destaque .img-container img {
+  max-width: 160px;
+  background-color: #E44A25;
+  
+}
+
+
+#block-service .fa-html5 {
+  color: #E44A25;
+  font-size: 15rem;
+}
+#block-service .fa-css3-alt {
+  color: #006DB9;
+  font-size: 15rem;
+}
+#block-service .fa-js-square {
+  color: #F5DD1B;
+  font-size: 15rem;
+}
+#block-service .fa-github-square {
+  color: #7A2B9F;
+  font-size: 15rem;
+}
+/*--------- le fin section service------*/
+
+#clientes a.link-cliente {
+  padding: 0 15px;
+  background: var(--fonts-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px var(--fonts-500);
+  height: 120px;
+  transition: ease-out all 0.2s;
+  text-decoration: none;
+  margin-top: 5px;
+}
+#clientes a.link-cliente:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .15);
+  font-size: 6rem;
+}
+#clientes a.link-cliente img {
+  filter: grayscale(100%);
+  max-width: 70px; 
+  width: 100%;
+  opacity: 0.6;
+}
+#clientes .fa-apple-alt {
+  color: #636363;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+#clientes .fa-whatsapp-square {
+  color: #2CB541;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+#clientes .fa-google-plus-square {
+  color: #E34133;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+#clientes .fa-instagram {
+  color: #fff;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+  background: linear-gradient(to right, #8A2387, #E94057, #F27121  );
+  border-radius: 5px;
+  
+}
+#clientes .fa-facebook-square {
+  color: rgb(23,120,242);
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+#clientes .fa-bitcoin {
+  color: #EF8E19;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+#clientes .fa-windows {
+  color: #043ADF;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+#clientes .fa-uber {
+  color: #000000;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+#clientes .fa-amazon {
+  color: #E47911;
+  filter: grayscale(100%); 
+  font-size: 3rem;
+  opacity: 0.6;
+}
+
+
+
+#clientes a.link-cliente:hover i {
+  filter: none;
+  opacity: 1;
+  font-size: 5rem;
+
+}
+#clientes .cliente-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: var(--fonts-400);
+  border-radius: 5px;
+  
+}
+#clientes .cliente-texto .imagem {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  margin-left: -70px;
+  color: var(--fonts-900);
+  font-size: 24px;
+  line-height: 26px;
+
+}
+/*#clientes .cliente-texto .imagem img {
+  width: 60%;
+  height: 60%;
+  
+}*/
+
+#clientes .cliente-texto .imagem span {
+  color: var(--fonts-900);
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: -10px;
+  font-weight: 900;
+  display: block;
+
+
+}
+#clientes .cliente-texto .telefone {
+  display: flex;
+  font-size: 14px;
+  color: var(--fonts-700);
+  text-align: center;
+}
+
+#clientes .cliente-texto .telefone span {
+  font-size: 25px;
+  color: var(--fonts-900);
+  font-weight: 900;
+  display: block;
+  
+}
+
+
+/*--------- le fin section clientes------*/
+
+
+#services .badge {
+  font-weight: 400;
+}
+#services .element-item img {
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+
+}
+#services .element-item img:hover {
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+#services .button-group {
+  margin-bottom: 30px;
+  
+}
+#services .button-group button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+}
+#services .button-group button + button {
+  margin-left: 30px;
+}
+#services .button-group button.active {
+  color: var(--primary);
+}
+
+
+/*--------- le fin section services------*/
+
+
+#depoimentos .depoimento {
+  background-color: var(--fonts-400);
+  border-radius: 5px;
+  display: flex;
+  padding: 30px;
+}
+#depoimentos .depoimento .quote {
+  max-width: 35px;
+  
+
+}
+#depoimentos .depoimento .name {
+  color: #aaaaaa;
+
+}
+#depoimentos .depoimento .name span {
+  color: #333333;
+  font-weight: 700;
+}
+
+/*--------- le fin section depoimentos------*/
+
+
+#contato .email {
+  border-radius: 5px;
+  background-color: var(--primary-depe-purple-900);
+  position: relative;
+  display: flex;
+  color: #fff;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 30px;
+
+}
+#contato .email img {
+  position: absolute;
+  left: 30px;
+  top: -30px;
+
+
+}
+
+#contato .email form {
+  width: 60%;
+  display: flex;
+} 
+#contato .email .form-control,
+#contato .email .form-control::placeholder {
+  background: none;
+  color: #fff;
+}
+
+#contato ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+
+}
+#contato ul li {
+  display: flex;
+  list-style-type: none;
+  margin-left: 25px;
+
+}
+#contato ul li:first-child {
+  margin-left: 0;
+  
+
+}
+#contato ul li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: all ease-out 0.2s;
+}
+#contato ul li a:hover {
+ box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+ background-color: #fff;
+}
+#contato ul li img {
+  max-height: 20px;
+}
+/*--------- le fin section contato------*/
+ 
+

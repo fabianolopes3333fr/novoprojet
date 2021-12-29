@@ -1,9 +1,9 @@
-jQuery(document).ready(function($){
+jQuery(document).ready(function ($) {
 
   //FIXED HEADER
-  window.onscroll = function(){
-    if(window.pageYOffset > 140) {
-      $('#header').addClass("active");
+  window.onscroll = function () {
+    if (window.pageYOffset > 140) {
+      $("#header").addClass("active");
     } else {
       $("#header").removeClass("active");
     }
@@ -11,56 +11,71 @@ jQuery(document).ready(function($){
 
 
 
-// isotope
-  let btns = $("#service .button-group button");// click button
+  // isotope
+  let btns = $("#services .button-group button");// click button
 
   btns.click(function (e) {
-    $("#service .button-group button").removeClass("active");
+    $("#services .button-group button").removeClass("active");
     e.target.classList.add("active");
 
     let selector = $(e.target).attr("data-filter");// filter
-    $("#service .grid").isotope({
+    $("#services .grid").isotope({
       filter: selector,
     });
   });
-  $(window).on("load", function() {
-    $("#service .grid").isotope({
+
+   $(window).on("load", function () {
+    $("#services .grid").isotope({
       filter: "*",
     });
   });
 
-// magnify
-  $(".grid .popup-link").magnificPopup({ // slide foto
+  // magnify
+  $(".grid .popup-link").magnificPopup({
     type: "image",
     gallery: {
-      enabled:true,
+      enabled: true,
       tPrev: "Anterior",
-      tNext: "Proxima",
-      tCouter: "%curr% de %total%",
+      tNext: "Próxima",
+      tCounter: "%curr% de %total%",
     },
   });
 
-//owl carousel
-  $(".owl-carousel").owlCarousel({
-    loop: false,
-    margin: 30,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    dots: true,
-    lazyLoad: true,
-    nav: false,
-    responsive: {
-      0: {
-        items: 1,
+  //owl carousel
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    items:2,
+    loop:true,
+    margin:30,
+    autoplayTimeout:true,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+      0:{
+        items:1,
+        nav:false,
+        loop:true
       },
-      600: {
-        items: 1,
+      600:{
+        items:1,
+        nav:false,
+        loop:true
       },
-      1000: {
-        items: 2,
-      },
-    },
+      1000:{
+        items:2,
+        nav:false,
+        loop:true
+      }
+    }
   });
+  $('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+  })
+  $('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+  })
+  
+  
 
 
 
