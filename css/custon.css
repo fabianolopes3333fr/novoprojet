@@ -325,7 +325,7 @@ body {
   display:flex;
   justify-content: center;
   text-align: center;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -371,20 +371,33 @@ body {
   background-color: var(--fonts-400);
   border-radius: 5px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 30px;
 }
 #depoimentos .depoimento .quote {
-  max-width: 35px;
+  max-width: 20px;
+  margin-top: 0;
   
 
 }
+#depoimentos .depoimento p {
+  margin: 15px;
+}
 #depoimentos .depoimento .name {
   color: #aaaaaa;
+  margin: 15px;
 
 }
 #depoimentos .depoimento .name span {
   color: #333333;
   font-weight: 700;
+  font-size: 18px;
+  
+}
+#depoimentos .depoimento .para {
+  font-size: 12px;
+  
 }
 
 /*--------- le fin section depoimentos------*/
@@ -400,6 +413,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 120px 30px;
+  
 
 }
 #contato .email img {
@@ -413,11 +427,13 @@ body {
 #contato .email form {
   width: 60%;
   display: flex;
+  
 } 
 #contato .email .form-control,
 #contato .email .form-control::placeholder {
   background: none;
   color: #fff;
+  
 }
 
 #contato ul {
