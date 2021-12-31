@@ -21,7 +21,7 @@ a:hover {
 }
 
 .button {
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-weight: 500;
   padding-left: 1.4rem;
   padding-right: 1.4rem;
@@ -29,19 +29,25 @@ a:hover {
 .button-primay {
   background-color: var(--primary-purple-500);
   border-color: var(--secundary-depe-purple-100);
+  color: aliceblue;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  
   
   
 }
 .button-primay:hover {
   background-color: var(--primary-purple-900);
   border-color: var(--primary-depe-purple-600);
+  color: aliceblue;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
 
 
 }
 .button-primary-outline {
   border-color: var(--primary-purple-500);
-  color: var(--fonts-800);
-
+  color: var(--fonts-900);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  
 }
 .button-primary-outline:hover {
   border-color: var(--primary-purple-900);

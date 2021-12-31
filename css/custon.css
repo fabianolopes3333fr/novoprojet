@@ -52,12 +52,45 @@ body {
 }
 /*--------- le fin section header------*/
 
+
 #slider {
-  background: url(../assets/baner\ heder.png) no-repeat center bottom;
-  background-size: contain;
-  background-color: var(--fonts-400);
+  background: url(../assets/baner\ heder.png)no-repeat center  bottom ;
+  background-size:contain;
+  background-color: var(--fonts-200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: hidden
+  
+  
+  
+  
+}
+
+#slider .block-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+
+  text-align: center;
+  
  
   
+  
+  
+  
+  
+}
+#slider .block-container .block-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  
+
   
 }
 
@@ -70,30 +103,54 @@ body {
   font-size: 18px;
   text-transform: uppercase;
 }
+#slider .btn-custon{
+  display: block;
+  width: 12rem;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  
+}
+#slider .block-img {
+  width: 50%;
+
+}
+#slider .block-img img {
+  width: 100%;
+
+}
 /*--------- le fin section slider------*/
 #sobre {
   display: flex;
-  justify-content:space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  text-align:center;
 }
 #sobre h2 {
-  text-align:center;
-  margin-bottom: 15px;
+ 
+  margin-bottom: 25px;
   
 }
 #sobre h4 {
-  text-align:center;
-  margin-bottom: 15px;
+  
+  margin-bottom: 25px;
 }
 #sobre p {
   text-align:justify;
+  margin-bottom: 25px;
+  
   
 }
-.btn-sobre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+#sobre .btn-sobre {
+  width: 12rem;
+  padding: 10px;
+  
+ 
+  
+ 
+
 }
 
 #block-service a.destaque {
@@ -238,54 +295,37 @@ body {
   font-size: 5rem;
 
 }
-#clientes .cliente-texto {
+#clientes .block-cli-1 { /* pai*/
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 30px;
-  background-color: var(--fonts-400);
+  text-align: center;
+  padding: 40px;
   border-radius: 5px;
-  
+  background-color: var(--fonts-400);
 }
-#clientes .cliente-texto .imagem {
-  padding: 60px 0;
+
+
+#clientes .block-imagem { /*filho*/
   display: flex;
   align-items: center;
   margin-left: -70px;
-  color: var(--fonts-900);
-  font-size: 24px;
-  line-height: 26px;
-
+  padding: 60px 0;
 }
-/*#clientes .cliente-texto .imagem img {
-  width: 60%;
-  height: 60%;
+#clientes .block-imagem .dez { /*neto*/
   
-}*/
-
-#clientes .cliente-texto .imagem span {
-  color: var(--fonts-900);
-  font-size: 110px;
-  line-height: 110px;
-  letter-spacing: -10px;
-  font-weight: 900;
-  display: block;
-
-
-}
-#clientes .cliente-texto .telefone {
   display: flex;
-  font-size: 14px;
-  color: var(--fonts-700);
+  justify-content: center;
   text-align: center;
-}
-
-#clientes .cliente-texto .telefone span {
-  font-size: 25px;
   color: var(--fonts-900);
+  font-size: 60px;
   font-weight: 900;
-  display: block;
-  
+
+}
+#clientes .block-telefone {/*pai*/
+  display:flex;
+  justify-content: center;
+  text-align: center;
+
 }
 
 
